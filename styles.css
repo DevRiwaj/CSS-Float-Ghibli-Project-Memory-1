@@ -1,0 +1,45 @@
+body{
+    color: white;
+    background-color: black;
+}
+.heading-top{
+    font-size: 3rem;
+}
+span{
+    color: orange;
+}
+.left-img{
+    float: left;
+    height: 200px;
+    margin-right: 20px;
+}
+.card{
+    width: 45%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.bottom-card{
+clear: both;
+}
+.thirdimg{
+    margin-top: 10px;
+    height: 200px;
+    display: inline-block;
+}
+footer{
+    text-align: right;
+    font-weight: bold;
+}
+@media(max-width:600px){
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .heading-top{
+        font-size: 2rem;
+    }
+}
